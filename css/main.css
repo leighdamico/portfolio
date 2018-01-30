@@ -1,0 +1,163 @@
+/***** BASE STYLES *****/
+body{
+    background: #212040;
+    box-sizing: border-box;
+    font-family: 'Vollkorn', serif;
+}
+
+#work, #about, #contact{
+  height: 700px;
+  clear: both;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+
+/***** HEADER *****/
+
+header{
+ background: url('../img/blueheroimage.png') no-repeat;
+ background-size: cover;
+ height: 700px;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  position: fixed;
+  top: 0px;
+  background-color: #212040;
+}
+
+nav ul li{
+  margin-top: 20px;
+  margin-right: 50px;
+  float: right;
+}
+
+#last{
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+nav ul li a{
+  font-family: 'Lato', sans-serif;
+  color:#b8bdbe;
+  font-size:20px;
+  text-decoration: none;
+}
+
+h1{
+  color: #e19b03;
+  font-family: 'Bad Script', cursive;
+  font-size: 100px;
+  text-align: center;
+  clear: both;
+  padding-top: 150px;
+}
+
+.subhead{
+  font-family: 'Lato', sans-serif;
+  color:#b8bdbe;
+  font-size:35px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+/***** WORK SECTION *****/
+
+h2{
+  color: #e19b03;
+  font-family: 'Bad Script', cursive;
+  font-size: 65px;
+  text-align: center;
+  clear: both;
+  padding-top: 150px;
+  margin-bottom: 0px;
+}
+
+figure{
+  margin: 0px;
+}
+
+figure img{
+  margin: 0 20px;
+  border: 5px #e19b03 solid;
+}
+
+figcaption{
+  color: #e19b03;
+  padding-top: 10px;
+  margin: 0px 20px;
+}
+
+figcaption a{
+  color: #e19b03;
+  padding-top: 10px;
+  margin: 0px;
+}
+
+figcaption a:visited{
+  color: #b8bdbe;
+}
+
+/***** ABOUT SECTION *****/
+
+#about {
+  background-color:#44455e;
+}
+
+#about img{
+  float: left;
+  margin: 0px 75px;
+  border: 5px black solid;
+}
+
+#about p{
+  color: #000;
+  font-size: 25px;
+  line-height: 1.5em;
+  text-align: left;
+  padding: 35px;
+  margin-top: 0px;
+}
+
+#about a{
+  color: #000;
+  font-style: italic;
+}
+
+/***** CONTACT SECTION *****/
+
+#contact p, address{
+  color: #b8bdbe;
+  text-align: center;
+  font-size: 30px;
+}
+
+#contact a{
+  color: #b8bdbe;
+  text-decoration: none;
+}
+
+p#post-script{
+  text-align: left;
+  font-size: 15px;
+  margin-top: 100px;
+  padding-left: 10px;
+}
